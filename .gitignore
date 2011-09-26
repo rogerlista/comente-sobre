@@ -1,0 +1,7 @@
+*.class
+*.war
+
+dist
+classes
+WebContent/WEB-INF/classes
+

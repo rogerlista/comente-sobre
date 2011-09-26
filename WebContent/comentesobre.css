@@ -1,0 +1,152 @@
+@charset "UTF-8";
+input, label, select, textarea, button, fieldset, legend {
+/*	display: block; */
+	display: inline;
+	border: 1px solid blue;
+	padding: 5px;
+	text-align: left;
+	width: 27em;
+	font-size: 12pt;
+	color: #104E8B;
+	border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-opera-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#comentarioWrap input {
+	width: 37em;
+}
+input:focus {
+	color: #104E8B;
+}
+label {
+	border: 0px;
+}
+textarea {
+	width: 37em;
+}
+button {
+	width: 9em;
+	text-align: center;
+}
+legend {
+	width: auto;
+	text-transform: uppercase;
+	font-size: 14pt;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+body{
+	background-color:#104E8B; 
+	text-align:center;
+}
+h1 {
+	width: 800px;
+	margin: 0 auto 20px;
+	text-align: left;
+	border-bottom: 1px black solid;
+}
+table {
+	width: 800px;
+	margin: 0 auto;
+	font-size: 15pt;
+	text-align: left;
+	border: 1px white solid;
+	color: #104E8B;	
+}
+table thead {
+	background-color: #104E8B;
+	font-size: 15pt;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+table thead td {
+	font-size: 15pt;
+	padding-left: 10px;	
+}
+table tbody tr.even {
+	font-size: 15pt;
+	background-color: #87CEFF;
+}
+#topicoElements, #topicoElementsEn{
+	display:block;
+	width:600px;
+	height:29px;
+	position:relative;
+	margin:0px auto;
+	text-align:left;
+}
+	
+#topicoElements li, #topicoElementsEn li {list-style:none;}
+		
+#comentarioElements, #comentarioElementsEn{
+	display:block;
+	width:600px;
+	height:29px;
+	position:center;
+	margin:0px auto;
+	text-align:left;
+}
+
+#comentarioElements li, #comentarioElementsEn li {
+	list-style:none;
+}
+	
+#menuElements, #menuElementsEn{
+	display:block;
+	width:832px;
+	height:59px;
+	position:relative;
+	margin:0px auto;
+	text-align:left;}
+	
+#menuElements li, #menuElementsEn li {list-style:none;}
+
+#menuElementsEn li {
+	float: left;
+	margin: 16px 5px;
+}
+#menuElementsEn li a:hover {
+	color: #104E8B;
+	background-color: #a29bc0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-opera-border-radius: 5px;
+	border-radius: 5px;
+}
+#menuElementsEn li a {
+	font-size: 28pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	position:relative;
+	padding: 5px 15px;
+	color: white;
+	top: auto;
+}
+#contentWrap{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:auto;
+	padding: 40px 0;
+	background-color:#FFF;
+	background-image:url(images/bgHeader.png);
+	background-position:0px -461px;
+	background-repeat:repeat-x;}
+	
+/*footer css*/
+#footerWrap{
+	clear: both;
+	height: 25px;
+	width:100%;
+	font-size:10px; 
+	font-weight:bold;
+	margin:0px 2px 0px 0px;}
